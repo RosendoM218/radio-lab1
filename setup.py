@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "radio-lab1",
+    name = "radio_lab1",
     version = "0.1.0",
     author = "Rosendo Medina-Uribe",
     description = "installable package used in LAB1 of ASTRON121 at UC Berkeley",
