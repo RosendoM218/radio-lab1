@@ -1,29 +1,29 @@
-# Byte-compiled Python files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Distribution folders
-dist/
+# C extensions
+*.so
+
+# Distribution / packaging
 build/
+dist/
 *.egg-info/
+.eggs/
 
 # Virtual environments
-.env
-.venv
-env/
 venv/
+.venv/
 
-# IDE files
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
 .vscode/
-.idea/
-*.swp
-*.swo
 
-# OS files
+# MacOS files
 .DS_Store
-Thumbs.db
 
-# Temporary data files
-*.tmp
+# Logs
 *.log
