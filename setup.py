@@ -6,9 +6,9 @@ setup(
     author = "Rosendo Medina-Uribe",
     description = "installable package used in LAB1 of ASTRON121 at UC Berkeley",
     long_description = "This package contains the code for common functions that are commonly used in LAB1 of the radio astronomy course ASTRON121 offered at UC Berkeley.",
-    url = "https://github.com/RosendoM218/ASTRON121_LAB1_Package.git",
+    url = "https://github.com/RosendoM218/radio-lab1.git",
     package_dir = {"": "src"},
-    packages = find_packages(where = "src"),
+    packages = ["radio_lab1"],
     install_requires = ["numpy >= 1.21"],
     python_requires = ">=3.9"
 )
