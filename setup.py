@@ -9,6 +9,6 @@ setup(
     url = "https://github.com/RosendoM218/ASTRON121_LAB1_Package.git"
     package_dir = {"": "src"}
     packages = find_packages(where = "src")
-    install_requires = ["numpy", "matplotlib", "scipy"]
+    install_requires = ["numpy >= 1.21"]
     python_requires = ">=3.9"
 )
