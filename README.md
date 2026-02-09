@@ -20,8 +20,9 @@ macOS/Linux:
 
 python3 -m venv venv
 source venv/bin/activate
-The prompt should now show (venv) indicating the virtual environment is active.
 ```
+The prompt should now show (venv) indicating the virtual environment is active.
+
 
 ### 3️⃣ Upgrade pip (optional but recommended)
 ```bash
@@ -31,8 +32,9 @@ python -m pip install --upgrade pip
 ### 4️⃣ Install the package
 ```bash
 pip install .
-This installs the radio_lab1 package in the current environment.
 ```
+This installs the radio_lab1 package in the current environment.
+
 ### 5️⃣ Verify the installation in the terminal
 ```bash
 python -c "import radio_lab1; print(radio_lab1.__file__)"
@@ -40,9 +42,9 @@ python -c "from radio_lab1.sdr_tools import compute_power_spectrum; print(comput
 ```
 Expected output:
 
-The first line shows a path ending in radio_lab1\__init__.py in your site-packages.
+- The first line shows a path ending in radio_lab1\__init__.py in your site-packages.
 
-The second line shows something like <function compute_power_spectrum at 0x...>.
+- The second line shows something like <function compute_power_spectrum at 0x...>.
 
 ### 6️⃣ Optional: Verify in Jupyter Notebook
 Install Jupyter support:
